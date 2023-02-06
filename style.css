@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+
+body {
+    background-color: black ; 
+        
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto;
+    color: #F56EB3;
+}
+
+section {
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: #F56EB3;
+    width: 1500px;
+    height: fit-content;
+    border-radius: 25px;
+    font-family: Source Code Pro;
+    color: aliceblue;
+}
+
+#images {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#upload {
+    width: 200px;
+}
+
+#trailer {
+     width: 200px;
+}
+
+#mensagemErro {
+    color: #3F0071;
+}
+
+#display_image {
+    margin: 20px;
+}
+
+#imageF {
+    margin: 5px;
+    transition: transform .2s;
+}
+
+#imageF:hover {
+    margin: 5px;
+    transform: scale(1.1);
+}
+
+#upload {
+    background-color: #EA047E;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+
+#trailer {
+    background-color: #EA047E;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#trailer::placeholder {
+    color: aliceblue;
+}
+
+#upload::placeholder {
+    color: aliceblue;
+}
+
+#teste {
+    margin: 20px;
+}
+
+#botao {
+    border-radius: 15px;
+    background-color: #F8FFDB;
+    width: 80px;
+    height: 30px;
+    font-family: Source Code Pro;
+    text-align: center;
+    padding: 0%;
+}
+
+#remove {
+    border-radius: 15px;
+    background-color: #FF7D7D;
+    width: 80px;
+    height: 30px;
+    font-family: Source Code Pro;
+    text-align: center;
+    padding: 0%;
+}
+
+#botao:hover {
+    background-color: #d0d6b9;
+}
+
+#remove:hover {
+    background-color: #d86a6a;
+}
